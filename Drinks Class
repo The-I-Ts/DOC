@@ -1,13 +1,13 @@
 package CMPS280;
 
-public interface Food {
+public interface Drinks{
 	
-	void setFoodID(int FoodID);
-	String setFoodName(String FoodName);
-	abstract double setFoodPrice(double FoodPrice);
+	abstract void setDrinkID(int DrinkID);
+	abstract String setDrinkName(String DrinkName);
+	abstract double setDrinkPrice(double DrinkPrice);
 	
-	int getFoodID(int FoodID);
-	String getFoodName(String FoodName);
-	abstract double getFoodPrice(double FoodPrice);
+	abstract int getDrinkID(int DrinkID);
+	abstract String getDrinkName(String DrinkName);
+	abstract double getDrinkPrice(double DrinkPrice);
 	
 	}
